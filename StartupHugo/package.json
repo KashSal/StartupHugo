@@ -1,0 +1,25 @@
+﻿{
+  "name": "hugo-full-stack-engineering-challenge",
+  "version": "0.0.1",
+  "description": "Engineering team challenge for full-stack candidates",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "request": "2.81.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": ""
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}

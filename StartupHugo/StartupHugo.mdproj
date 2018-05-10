@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>GenericProject</ItemType>
+    <ProjectGuid>{97D30852-638F-48AA-B0C2-4EBDC118C6A8}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="views\" />
+    <Folder Include="utilities\" />
+    <Folder Include="public\" />
+    <Folder Include="data\" />
+    <Folder Include="public\js\" />
+    <Folder Include="public\classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="views\index.html" />
+    <None Include="README.md" />
+    <None Include="package.json" />
+    <None Include="server.js" />
+    <None Include="utilities\http.js" />
+    <None Include="public\client.js" />
+    <None Include="data\uninsured_by_state.json" />
+    <None Include="views\index2.html" />
+    <None Include="public\style.css" />
+    <None Include="public\style.min.css" />
+    <None Include="public\js\Widget.js" />
+    <None Include="public\classes\states.js" />
+    <None Include="data\state_info.json" />
+  </ItemGroup>
+</Project>
